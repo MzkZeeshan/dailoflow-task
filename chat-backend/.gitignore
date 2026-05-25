@@ -1,0 +1,37 @@
+# Node
+node_modules/
+.env
+*.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+
+# VSCode
+.vscode/
+
+# Service Account Keys
+*.json
+!src/*.json
+!frontend/public/*.json
+
+google_auth.json
+
+# React
+frontend/build/
+frontend/node_modules/
+
+# Misc
+*.tgz
+
